@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'My_Django_Experimental_Website_App',
 ]
 
 MIDDLEWARE_CLASSES = [
