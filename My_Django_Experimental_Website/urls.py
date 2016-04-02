@@ -18,4 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^hello_world/', 'My_Django_Experimental_Website_App.views.hello_world', name='hello_world'),
 ]
